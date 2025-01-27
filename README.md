@@ -24,3 +24,40 @@ The goal of this project is to provide hands-on experience with real-world devel
 - **REST API Structure:** Building endpoints for essential features like user authentication, product management, and order handling.  
 - **Database Schema Design:** Creating well-structured data models in MongoDB.  
 - **Authentication:** Learning the role of authentication in web applications and implementing it.  
+## Milestone 2:
+Project Structure and Login Page
+
+
+Created a structured folder hierarchy for separating frontend and backend code.
+
+Set up the React application for the frontend and a Node.js server for the backend.
+
+Configured Tailwind CSS for streamlined styling.
+
+Developed a functional and styled Login Page for the frontend.
+
+Outcome: Project was structured, and the first user-facing feature (Login Page) was implemented.
+
+## Milestone 3:
+Backend Setup and Database Connection
+
+
+Created a dedicated folder structure for organizing backend code (routes, controllers, models, etc.).
+
+Configured a Node.js server with Express.js to handle API requests.
+
+Connected the backend to MongoDB for data storage.
+
+Implemented basic error handling for better debugging.
+
+Outcome: Backend setup was completed with MongoDB integration, making the application ready for further development.
+
+## Milestone 4:
+User Model, Controller, and File Uploads
+
+
+Designed the User Model with a schema defining user details (e.g., name, email, password).
+
+Developed the User Controller to manage user data operations like adding or fetching users.
+
+Integrated Multer to enable file uploads (e.g., profile pictures) and store them in the backend.
