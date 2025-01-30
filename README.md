@@ -74,3 +74,4 @@ In this milestone, we completed the following:
 - Enhanced user authentication with JWT expiration handling.
 - Improved UI/UX by refining product pages and checkout flows.
 - Fixed bugs from previous milestones and improved error handling.
+
