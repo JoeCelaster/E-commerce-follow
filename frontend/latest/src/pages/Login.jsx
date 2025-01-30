@@ -2,7 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { React, useState } from "react";
 import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
-import styles from "../styles/styles.js"
+import styles from "../styles/styles"
 
 const Login = () => {
   const [email, setEmail] = useState("");
