@@ -1,5 +1,4 @@
 
 
-import Login from "../pages/Login.jsx";
-import Signup from "../pages/signup.jsx";
-export default  {Login,Signup};
+export {default as Login} from "../pages/Login.jsx"
+export {default as Signup} from "../pages/Signup.jsx"

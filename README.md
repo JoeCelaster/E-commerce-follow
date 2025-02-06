@@ -75,7 +75,10 @@ In this milestone, we completed the following:
 - Improved UI/UX by refining product pages and checkout flows.
 - Fixed bugs from previous milestones and improved error handling.
 
-- ## Milestone 7:
+
+
+## Milestone 7:
+
 
 Login Authentication System
 User Enters Credentials: The user provides their email/username and password on the login page.
@@ -84,6 +87,7 @@ Compare Encrypted Passwords: Process the user's input password using the same ha
 Create Login Endpoint: Accept user credentials (email/username and password). Retrieve the corresponding user from the database.
 Validate Password: Use bcrypt to hash the entered password. Compare it with the stored hashed password for authentication.
 Return Response: If authentication is successful, generate and return a session/token. If authentication fails, return an error message.
+
 
 
 
