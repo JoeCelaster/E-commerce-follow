@@ -75,7 +75,7 @@ In this milestone, we completed the following:
 - Improved UI/UX by refining product pages and checkout flows.
 - Fixed bugs from previous milestones and improved error handling.
 
-## MIlestone 7:
+## Milestone 7:
 
 Login Authentication System
 User Enters Credentials: The user provides their email/username and password on the login page.
