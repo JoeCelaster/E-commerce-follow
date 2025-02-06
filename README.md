@@ -75,9 +75,13 @@ In this milestone, we completed the following:
 - Improved UI/UX by refining product pages and checkout flows.
 - Fixed bugs from previous milestones and improved error handling.
 
-## Milestone 7:
 
-Login Authentication System
+
+
+
+## Milestone 7:
+Login Authentication S
+
 User Enters Credentials: The user provides their email/username and password on the login page.
 Fetch User Data from Database: The backend retrieves the user record based on the provided email/username. If the user is not found, return an error: "User does not exist."
 Compare Encrypted Passwords: Process the user's input password using the same hashing algorithm (e.g., bcrypt). Compare the resulting hash to the stored hashed password. If they match, the user is authenticated; if not, send an error.
@@ -85,8 +89,14 @@ Create Login Endpoint: Accept user credentials (email/username and password). Re
 Validate Password: Use bcrypt to hash the entered password. Compare it with the stored hashed password for authentication.
 Return Response: If authentication is successful, generate and return a session/token. If authentication fails, return an error message.
 
+
 ## Milestone 8:
 Displays a list of products in a grid format.
 Uses a Product component to render individual product cards with an image, name, description, and price.
 The Home component maps over a predefined list of products and renders them using the Product component.
 Styled using Tailwind CSS for responsiveness and modern UI design.
+=======
+
+
+
+
