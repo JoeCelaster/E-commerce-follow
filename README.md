@@ -85,3 +85,8 @@ Create Login Endpoint: Accept user credentials (email/username and password). Re
 Validate Password: Use bcrypt to hash the entered password. Compare it with the stored hashed password for authentication.
 Return Response: If authentication is successful, generate and return a session/token. If authentication fails, return an error message.
 
+## Milestone 8:
+Displays a list of products in a grid format.
+Uses a Product component to render individual product cards with an image, name, description, and price.
+The Home component maps over a predefined list of products and renders them using the Product component.
+Styled using Tailwind CSS for responsiveness and modern UI design.
