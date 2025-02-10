@@ -97,6 +97,24 @@ The Home component maps over a predefined list of products and renders them usin
 Styled using Tailwind CSS for responsiveness and modern UI design.
 =======
 
+## Milestone 9:
+In this milestone, we implemented a product input form to allow users to add new products to the application. Key achievements include:
+
+Product Input Form: Created a frontend form to collect product details such as name, description, price, and images.
+Multiple Image Uploads: Enabled users to upload multiple product images for better product representation.
+Form Validation: Implemented validation to ensure required fields are filled correctly before submission.
+State Management: Used React state to handle form inputs dynamically.
+Backend Integration: Connected the form to the backend API to store product details in the database.
+UI/UX Enhancements: Styled the form using Tailwind CSS for a clean and user-friendly design.
+This milestone improves the product management system by allowing users to add new products efficiently. 🚀
+
+## Milestone 10 :
+In this milestone, we focused on defining the structure of product data and creating an API endpoint to store product details in MongoDB.
+
+Product Schema Definition: Defined a structured product schema using Mongoose to store product data in MongoDB. Ensured each field has proper validation to maintain data integrity: Name: Required, string Description: Required, string Price: Required, number, with validation for non-negative values Image URL(s): Required, array of strings for multiple image storage Category: Required, string CreatedAt: Automatically generated timestamp
+Endpoint Creation: Developed a POST endpoint (/api/products) to accept product details from the frontend. Implemented validation to ensure only correctly formatted data is stored in the database. Saved product information to MongoDB using Mongoose models.
+Data Validation & Integrity: Enforced strict validation to prevent invalid or incomplete product entries. Returned appropriate error messages for missing or incorrect data inputs.
+
 
 
 
