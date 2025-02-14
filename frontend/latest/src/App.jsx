@@ -3,7 +3,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 import React from 'react'
-import {Login,Signup,Home} from "./routes/routes"
+import {Login,Signup,Home, MyProducts} from "./routes/routes"
 import CreateProduct from './pages/CreateProduct';
 
 function App(){
@@ -14,6 +14,7 @@ function App(){
       <Route path='/login' element={<Login/>}/>
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/CreateProduct' element={<CreateProduct/>}/>
+      <Route path='/myProducts' element={<MyProducts/>}/>
     </Routes>
     </BrowserRouter>
   )
