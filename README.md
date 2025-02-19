@@ -143,3 +143,12 @@ Backend: Creating a Delete Endpoint Developed a DELETE endpoint to remove produc
 Frontend: Delete Button and Request Handling Added a Delete button to each product card. Clicking the Delete button sends a request to the delete endpoint with the product ID. Implemented a confirmation dialog to ensure users intend to delete the product. Updated the product list dynamically to remove the deleted product without refreshing the page.
 
 UI and UX Enhancements Provided feedback on successful or failed delete operations. Enhanced the user experience with a clean and responsive UI for managing product deletions.
+
+## Milestone 15 - Navbar Component
+
+### Learning Goals 🎯
+By completing this milestone, we have:
+- Created a reusable Navbar component.
+- Integrated the Navbar into all pages of the application.
+- Ensured smooth navigation between pages.
+- Made the Navbar responsive for all screen sizes.

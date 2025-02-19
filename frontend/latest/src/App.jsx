@@ -3,7 +3,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css'
 import React from 'react'
-import {Login,Signup,Home, MyProducts} from "./routes/routes"
+import {Login,Signup,Home, MyProducts} from "../routes/routes"
 import CreateProduct from './pages/CreateProduct';
 
 function App(){

@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Product from "../components/Product";
 import Myproduct from "../components/myproduct";
+import Nav from "../components/nav";
 
 
 export default function MyProducts() {
