@@ -5,6 +5,7 @@ import './App.css'
 import React from 'react'
 import {Login,Signup,Home, MyProducts} from "../routes/routes"
 import CreateProduct from './pages/CreateProduct';
+import ProductDetails from './pages/productDetails';
 
 function App(){
   return(
@@ -15,6 +16,7 @@ function App(){
       <Route path='/signup' element={<Signup/>}/>
       <Route path='/CreateProduct' element={<CreateProduct/>}/>
       <Route path='/myProducts' element={<MyProducts/>}/>
+      <Route path='/productDetails' element={<ProductDetails/>}/>
     </Routes>
     </BrowserRouter>
   )
